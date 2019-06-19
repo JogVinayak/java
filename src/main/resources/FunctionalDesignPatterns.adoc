@@ -3,9 +3,13 @@
 1. Iterator pattern with functional interfaces and lambda
 2. Iterator pattern can be easily mimiced using Functional interface
 
-[source:java]
+:source-highlighter: pygments
+:source-language: java
+[source]
+----
+public static void printArray(int []a)
+{
 
-public static void printArray(int []a){
         String str = IntStream.of(a)
                 .boxed()
                 .map( in -> new Integer(in))
@@ -13,6 +17,6 @@ public static void printArray(int []a){
                 .collect( Collectors.joining(", "));
 
         System.out.println(str);
-    }
+}
+----
 
-[source:java]
