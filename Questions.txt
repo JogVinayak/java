@@ -1,1 +1,2 @@
-1. Rotation of array 
+1. Rotation of array
+2. Sort based on Hashmap value.
