@@ -2,7 +2,6 @@ package array.operations.rotation;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Rotation {
     public static void main(String[] args) {
