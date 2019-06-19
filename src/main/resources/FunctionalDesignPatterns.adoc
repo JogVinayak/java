@@ -1,0 +1,4 @@
+= Functional Design patterns
+
+* Iterator pattern with functional interfaces and lambda
+* Iterator pattern can be easily mimiced using Functional interface
