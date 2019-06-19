@@ -1,4 +1,4 @@
 = Functional Design patterns
 
-* Iterator pattern with functional interfaces and lambda
-* Iterator pattern can be easily mimiced using Functional interface
+1. Iterator pattern with functional interfaces and lambda
+2. Iterator pattern can be easily mimiced using Functional interface
