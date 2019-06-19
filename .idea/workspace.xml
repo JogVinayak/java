@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3b57fa3c-99c1-4f70-8a4d-b555687b777f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FunctionalDesignPatterns.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FunctionalDesignPatterns.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/array/operations/rotation/Rotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/array/operations/rotation/RotationWithOffset.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/array/operations/rotation/Rotation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+              <caret line="37" column="5" selection-start-line="28" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,8 +42,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/FunctionalDesignPatterns.adoc">
           <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <first_editor relative-caret-position="27">
+                <caret line="17" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -83,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/hashmap/operation/sort/SortByValue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#printArray#0;class#SortByValue#0" />
@@ -159,51 +160,6 @@
               <item name="cody" type="b2602c69:ProjectViewProjectNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-              <item name="SortByValue.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="cody" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,12 +450,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560965208998</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Initial commit">
+      <created>1560965454244</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560965454244</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Initial commit">
+      <created>1560965506842</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1560965506842</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="3" weight="0.32955465" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -510,12 +479,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32955465" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.66902655" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.66902655" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2574899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -794,7 +763,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/array/operations/rotation/Rotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <caret line="37" column="5" selection-start-line="28" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,7 +773,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/hashmap/operation/sort/SortByValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#printArray#0;class#SortByValue#0" />
@@ -816,8 +785,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/FunctionalDesignPatterns.adoc">
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <first_editor relative-caret-position="27">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
