@@ -5,8 +5,8 @@ Java coding interview
 * 700 Hacker earth
 
 
-GL
 chapter 1
+
 1. Implement an algorithm to determine if a string has all unique characters. What if
    you can not use additional data structures?
 2. Write code to reverse a C-Style String. (C-String means that “abcd” is represented as
@@ -27,6 +27,7 @@ chapter 1
    only one call to isSubstring (i.e., “waterbottle” is a rotation of “erbottlewat”).
    
 chapter 2
+  
 9. Write code to remove duplicates from an unsorted linked list.
    FOLLOW UP
    How would you solve this problem if a temporary buffer is not allowed?
