@@ -7,8 +7,8 @@ import java.util.HashMap;
 
 public class Program1 {
     public static void main(String[] args) {
-        String str1 = "tuxido";
-        String str2 = "tux";
+        String str2 = "cap";
+        String str1 = "tux";
 
         System.out.println(checkAnagram(str1, str2)? "Is a anagram" : "Is not a anagram");
     }
@@ -31,12 +31,14 @@ public class Program1 {
         System.out.println(mapString2);
 
         if (mapString1.keySet().size() > mapString2.keySet().size()){
+            System.out.println("Map string 1 is bigger ");
             for(Character key: mapString2.keySet()){
                 if(mapString2.get(key) != mapString1.get(key)){
                     return false;
                 }
             }
-        }if (mapString1.keySet().size() == mapString2.keySet().size()) {
+        }else if (mapString1.keySet().size() == mapString2.keySet().size()) {
+            System.out.println("Two maps are equal size ");
             for(Character key: mapString1.keySet()){
 
                 if(mapString1.get(key) != mapString2.get(key)){
@@ -44,6 +46,7 @@ public class Program1 {
                 }
             }
         }else{
+            System.out.println("Map string 2 is bigger ");
             for(Character key: mapString1.keySet()){
                 if(mapString1.get(key) != mapString2.get(key)){
                     return false;
