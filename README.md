@@ -5,7 +5,7 @@ Java coding interview
 * 700 Hacker earth
 
 
-chapter 1
+* chapter 1
 
 1. Implement an algorithm to determine if a string has all unique characters. What if
    you can not use additional data structures?
@@ -26,7 +26,7 @@ chapter 1
    another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using
    only one call to isSubstring (i.e., “waterbottle” is a rotation of “erbottlewat”).
    
-chapter 2
+* chapter 2
   
 9. Write code to remove duplicates from an unsorted linked list.
    FOLLOW UP
