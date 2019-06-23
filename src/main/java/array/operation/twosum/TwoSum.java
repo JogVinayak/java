@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+
+
 public class TwoSum {
     public static void main(String[] args) {
         int [] a = {1, 3, 9, 5, 4, 2, 6, 8, 7, 10};
@@ -31,6 +33,7 @@ public class TwoSum {
 
     public static void print(int []a){
         String str = IntStream.of(a).boxed()
+                .parallel()
                 .map(Integer::valueOf)
                 .map(String::valueOf)
                 .collect(Collectors.joining(", "));
